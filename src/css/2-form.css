@@ -1,0 +1,51 @@
+.feedback-form input[type="email"] {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    font: inherit;
+    width: 100%;
+    height: 40px;
+}
+
+.feedback-form textarea {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    font: inherit;
+    resize: none;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.feedback-form {
+    max-width: 408px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    flex-direction: column;
+    padding: 24px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.feedback-form label {
+    flex-direction: column;
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.feedback-form button {
+    font: inherit;
+    cursor: pointer;
+    width: 95px;
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #4e75ff;
+    border: none;
+    color: #FFF;
+}
+
+.feedback-form button:hover {
+    background: #6C8CFF;
+}
